@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swahili Dishes</title>
+    <style>
+        #special-request {
+            width: 300px;
+            height: 150px;
+        }
+        .image {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <img
+            class="image"
+            id="header-img"
+            src="https://api.logo.com/api/v2/images?logo=logo_3f86a4b8-f47e-441f-befe-5eed39f658f2&u=1715635072295&format=svg&margins=166&width=1000&height=750&fit=contain"
+            alt="Restaurant logo">
+            <h1>Swahili Dishes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#order-form">order form</a></li>
+                </ul>    
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2 id="menu">Menu</h2>
+            <article>
+                <h3>Chicken Biryani</h3>
+                <figure>
+                    <img
+                    class="image"
+                    src="https://i1.wp.com/www.happyandharried.com/wp-content/uploads/2018/06/KOZHIKODAN-CHICKEN-BIRYANI-HAPPYHARRIED.jpg"
+                    alt="An plate of Chicken Biryani meal">
+                </figure>
+                <p>Biryani is a celebratory rice and meat dish cherished in the Coastal cities. The biryani consists of fluffy basmati rice layered over tender<br> & succulent pieces of chicken meat, accompanied with the mesmerizing aromas of spices, herbs & caramelized onions. Get to enjoy the meal for only <i>$5.2</i></p>
+            </article>
+            <article>
+                <h3>Beef Pilau</h3>
+                <figure>
+                    <img
+                    class="image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwQBre_cWXjfSy1CEv9IW9laqg2OBno7tJEJjgxZB0Q&s"
+                    alt="A plate of fresh Beef Pilau">
+                </figure>
+                <p>Pilau is a rice dish that is cooked in a seasoned broth, with some pieces of beef, chicken and sometimes peas, nuts and raisins,<br> and whose brown color is obtained from being fried in caramelized onions and a blend of spices. This delicious meal costs <i>$4.95</i></p>
+            </article>
+            <article>
+                <h3>Coconut Fish</h3>
+                <figure>
+                    <img 
+                    class="image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd96tYISJGc7aGxiiHjggxUq0K73nC629Q7xAAZqLY_Q&s"
+                    alt="A plate of coconut fish besides Ugali">
+                </figure>
+                <p>Kenyans love a hot delicacy of fish. For the Coastal people they love theirs filleted and stewed it in coconut milk, garlic and lemon.<br> This delicacy will cost you only <i>$6.5</i></p>
+            </article>
+        </section>
+        <section><hr/>
+            <h2 id="order-form">Place Your Order: </h2>
+            <form>
+                <label for="chicken-biryani">Chicken Biryani</label><input type="number" id="chicken-biryani" min="0">
+                <label for="beef-pilau">Beef Pilau</label><input type="number" id="beef-pilau" min="0">
+                <label for="coconut-fish">Coconut Fish</label><input type="number" id="cocnut-fish" min="0">
+
+                <h3>Add-ons: </h3>
+                <input type="checkbox" name="addons" id="sweet-dumplings" value="">
+                <label for="sweet-dumplings">Sweet dumplings</label><br>
+
+                <input type="checkbox" name="addons" id="beef-skewers" value="">
+                <label for="beef-skewers">Beef skewers</label><br>
+
+                <input type="checkbox" name="addons" id="bean-cake" value="">
+                <label for="bean-cake"></label>Bean cake</label><br>
+
+                <input type="checkbox" name="addons" id="" value="">
+                <label for="shawarma">Shawarma</label><br><br>
+
+                <label for="special-request">Enter your request:</label><br>
+                <textarea id="special-request" placeholder="Please enter your special request"></textarea><br>
+
+                <label id="submit-order"></label>
+                <input type="submit" value="Go To Checkout" id="submit-order">
+            </form>
+        </section>
+        <section>
+            <footer>
+                <p>Made with love by @mwachilumobm</p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
