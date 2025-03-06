@@ -31,8 +31,8 @@ var teacher1 = "Phil";
 
 /* with an IIFE you encapsulate behaviour in a block */
 ( function anotherTeacher() {
-    var teacher1 = "Diana"; //not overriding on line 30
+    var teacher1 = "Diana"; //not overriding on line 30 - private variable
     console.log(teacher1);
 } ) (); /* () execution part */
 
-console.log(teacher1);
+console.log(teacher1); // Outputs: Phil
